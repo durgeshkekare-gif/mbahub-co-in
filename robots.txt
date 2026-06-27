@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mbahub.co.in/sitemap.xml
