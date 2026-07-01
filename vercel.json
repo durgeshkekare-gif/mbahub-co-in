@@ -60,6 +60,5 @@
       "maxDuration": 10
     }
   },
-  "trailingSlash": true,
-  "_comment": "redeploy"
+  "trailingSlash": true
 }
