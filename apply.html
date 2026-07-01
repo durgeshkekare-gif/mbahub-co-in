@@ -31,19 +31,19 @@
       <p style="font-size:.72rem;color:var(--text-muted);margin-bottom:1.1rem;">We call you within 2 hours with personalised picks.</p>
       <form onsubmit="submitLead(event,'fw','sc')">
         <div class="frow">
-          <div class="fgroup"><label>First name *</label><input type="text" required placeholder="Rahul"></div>
-          <div class="fgroup"><label>Last name *</label><input type="text" required placeholder="Sharma"></div>
+          <div class="fgroup"><label>First name *</label><input type="text" required placeholder="Rahul" name="firstName"></div>
+          <div class="fgroup"><label>Last name *</label><input type="text" required placeholder="Sharma" name="lastName"></div>
         </div>
-        <div class="fgroup"><label>Mobile *</label><input type="tel" required placeholder="+91 98765 43210"></div>
-        <div class="fgroup"><label>Email *</label><input type="email" required placeholder="rahul@company.com"></div>
+        <div class="fgroup"><label>Mobile *</label><input type="tel" required placeholder="+91 98765 43210" name="mobile"></div>
+        <div class="fgroup"><label>Email *</label><input type="email" required placeholder="rahul@company.com" name="email"></div>
         <div class="fgroup"><label>Work experience *</label>
-          <select required><option value="">Select…</option><option>Fresher / 0–1 yr</option><option>1–3 yrs</option><option>3–5 yrs</option><option>5–10 yrs</option><option>10+ yrs</option></select>
+          <select name="experience" required><option value="">Select…</option><option>Fresher / 0–1 yr</option><option>1–3 yrs</option><option>3–5 yrs</option><option>5–10 yrs</option><option>10+ yrs</option></select>
         </div>
         <div class="fgroup"><label>Budget range</label>
-          <select><option value="">Select…</option><option>Under ₹1L</option><option>₹1–2L</option><option>₹2–4L</option><option>₹4–8L</option><option>₹8L+</option></select>
+          <select name="experience"><option value="">Select…</option><option>Under ₹1L</option><option>₹1–2L</option><option>₹2–4L</option><option>₹4–8L</option><option>₹8L+</option></select>
         </div>
         <div class="fgroup"><label>Program interest</label>
-          <select>
+          <select name="budget">
             <option value="">Not sure — need guidance</option>
             <optgroup label="Online MBA">
               <option>Symbiosis SSODL</option><option>Chandigarh University</option><option>Amrita Vishwa</option>
