@@ -60,5 +60,12 @@
       "maxDuration": 10
     }
   },
-  "trailingSlash": true
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "https://www.mbahub.co.in/:path*",
+      "destination": "https://mbahub.co.in/:path*",
+      "permanent": true
+    }
+  ]
 }
