@@ -63,7 +63,13 @@
   "trailingSlash": false,
   "redirects": [
     {
-      "source": "https://www.mbahub.co.in/:path*",
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.mbahub.co.in"
+        }
+      ],
       "destination": "https://mbahub.co.in/:path*",
       "permanent": true
     }
