@@ -52,6 +52,10 @@
     {
       "source": "/programs",
       "destination": "/programs/index.html"
+    },
+    {
+      "source": "/blog/:slug",
+      "destination": "/blog/:slug.html"
     }
   ],
   "functions": {
@@ -60,5 +64,6 @@
       "maxDuration": 10
     }
   },
-  "trailingSlash": false
+  "trailingSlash": false,
+  "cleanUrls": true
 }
