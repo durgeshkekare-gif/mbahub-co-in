@@ -65,18 +65,5 @@
     }
   },
   "trailingSlash": false,
-  "cleanUrls": true,
-  "redirects": [
-    {
-      "source": "/((?!assets/|api/|favicon|robots|sitemap).*)",
-      "has": [
-        {
-          "type": "host",
-          "value": "www.mbahub.co.in"
-        }
-      ],
-      "destination": "https://mbahub.co.in/:path*",
-      "permanent": true
-    }
-  ]
+  "cleanUrls": true
 }
