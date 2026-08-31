@@ -15,17 +15,21 @@
       "has": [
         {
           "type": "host",
-          "value": "mbahub.co.in"
+          "value": "www.mbahub.co.in"
         }
       ],
-      "destination": "https://www.mbahub.co.in/$1",
+      "destination": "https://mbahub.co.in/$1",
       "permanent": true
     }
   ],
   "rewrites": [
     {
-      "source": "/blog/:slug",
-      "destination": "/blog/:slug.html"
+      "source": "/universities",
+      "destination": "/universities/index.html"
+    },
+    {
+      "source": "/compare",
+      "destination": "/compare/index.html"
     },
     {
       "source": "/blog",
@@ -36,12 +40,8 @@
       "destination": "/programs/index.html"
     },
     {
-      "source": "/compare",
-      "destination": "/compare.html"
-    },
-    {
-      "source": "/universities",
-      "destination": "/universities/index.html"
+      "source": "/blog/:slug",
+      "destination": "/blog/:slug.html"
     }
   ],
   "headers": [
